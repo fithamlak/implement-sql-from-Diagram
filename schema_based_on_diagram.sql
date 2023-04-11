@@ -21,3 +21,9 @@ CREATE TABLE treatments (
   name	VARCHAR(120),
   PRIMARY KEY (id)
 );
+
+CREATE TABLE medical_histories_treatments(
+    medical_history_id INTEGER REFERENCES medical_histories(id),
+    treatment_id INTEGER REFERENCES treatments(id),
+    PRIMARY KEY (medical_history_id, treatment_id)
+);
