@@ -2,7 +2,7 @@
 
 This repository includes: 
 
-- Use [schema.sql](./schema.sql) to create all tables.
+- Use [schema_based_on_diagram.sql](./schema_based_on_diagram.sql) to create all tables.
 
 <a name="readme-top"></a>
 
